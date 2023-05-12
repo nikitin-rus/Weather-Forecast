@@ -1,0 +1,48 @@
+.Header {
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.Header-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    max-width: 808px;
+    margin: 0 auto;
+}
+
+.Header-slider__icon {
+    padding: 16px;
+    cursor: pointer;
+}
+
+.Header-slider__icon:hover {
+    opacity: 0.5;
+}
+
+.Header-slider-linksWrapper {
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.Header-slider-links {
+    display: flex;
+    transition: transform 1s;
+}
+
+.Header-slider-links__link {
+    margin-right: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Header-slider-links__link:hover {
+    opacity: 0.5;
+}
+
+.Header-slider-links__link:last-child {
+    margin: 0;
+}

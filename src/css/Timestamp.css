@@ -1,0 +1,11 @@
+.Timestamp {
+    height: 48px;
+    max-width: 288px;
+    width: 100%;
+    padding: 16px;
+}
+
+.Timestamp__body {
+    text-align: center;
+    white-space: nowrap;
+}

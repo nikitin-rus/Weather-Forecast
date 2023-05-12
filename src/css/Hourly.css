@@ -1,0 +1,34 @@
+.Hourly {
+    width: 100%;
+    margin: 24px 0 40px 0;
+    padding: 16px;
+}
+
+.Hourly-slider {
+    display: flex;
+    margin-top: 8px;
+}
+
+.Hourly-slider-cardsWrapper {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 8px;
+}
+
+.Hourly-slider-cards {
+    display: flex;
+    transition: transform 1s;
+}
+
+.Hourly-slider__icon {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    cursor: pointer;
+
+}
+
+.Hourly-slider__icon:hover {
+    opacity: 0.5;
+}

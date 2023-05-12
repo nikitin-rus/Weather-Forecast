@@ -1,0 +1,28 @@
+.CardHourly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 8px 16px 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.CardHourly:hover {
+    opacity: 0.5;
+}
+
+.CardHourly__body {
+    white-space: nowrap;
+}
+
+.CardHourly-temp {
+    display: flex;
+    align-items: center;
+}
+
+.CardHourly-temp__icon {
+    min-width: 56px;
+    min-height: 56px;
+}

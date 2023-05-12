@@ -1,0 +1,15 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  margin-top: auto;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.Footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 808px;
+  margin: 0 auto;
+}
